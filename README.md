@@ -1,2 +1,2 @@
 # zapier-integration-laravel
-Integrate Zapier in Laravel
+Integrating Zapier in Laravel Application.
