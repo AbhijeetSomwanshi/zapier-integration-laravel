@@ -18,6 +18,7 @@ class CreateSubscriptionsTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->string('event');
             $table->string('target_url');
+            $table->enum('state',['1', '0'])->comment('1 => Active, 0 => Inactive')->default('1');
             $table->timestamps();
         });
     }
